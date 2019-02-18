@@ -74,22 +74,25 @@ main {
 
 #locations {
   background-image: url("./images/locationsbackground.jpg");
-  height: 500px;
+  height: 575px;
   width: 1200px;
   margin-left: 120px;
   margin-right: 120px;
-  background-position: center;
+  background-position: inherit;
 }
 
 #locations h2 {
   text-align: center;
   padding-top: 60px;
+  margin-bottom: 15px;
 }
 
 #locations .locations-container {
   display: flex;
   justify-content: center;
   opacity: 1;
+  margin-left: 45px;
+  margin-right: 45px;
 }
 
 #locations .downtown, .east-bayside, .oakdale {
@@ -101,6 +104,10 @@ main {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+#locations .downtown {
+  margin-left: 40px;
 }
 
 footer {
