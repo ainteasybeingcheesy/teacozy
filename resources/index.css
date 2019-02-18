@@ -58,6 +58,10 @@ main {
   align-items: center;
 }
 
+#tea h4 {
+  margin: auto;
+}
+
 #tea .images-container {
   display: flex;
   margin-top: 10px;
