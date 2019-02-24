@@ -50,6 +50,14 @@ main {
   width: 100%;
 }
 
+#mission h2 {
+  margin: 12px;
+}
+
+#mission h4 {
+  margin: 15px;
+}
+
 #tea {
   display: flex;
   flex-direction: column;
